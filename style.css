@@ -1,0 +1,149 @@
+body{
+    background-image: url(https://images.alphacoders.com/270/270963.jpg)
+}
+body header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+body header img{
+    width: 180px;
+}
+body header div input{
+    width: 260px;
+    height: 22px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+body header div button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+body header ul{
+    display: flex;
+}
+
+body header ul li button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.nav_tabs{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 37px;
+    margin-top: 100px;
+    margin-left: 20px;
+    position: relative;
+    background-color: white;
+}
+.nav_tabs ul li{
+    float: left;
+    height: 1px;
+}
+.nav_tabs label{
+    width: 213px;
+    height: 37px;
+    /* padding: 25px; */
+    background-color: rgb(77, 76, 76);
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+    font-size: 20px;
+}
+
+.categoriaProduto:checked ~ label{
+    background-color: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
+}
+.categoriaProduto{
+    display: none;
+}
+
+#lista{
+    background-image:url(https://i.pinimg.com/564x/e3/c7/4e/e3c74e89b4c0f0735e6764ec21dbed78.jpg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 60%;
+    height: 600px;
+    margin-left: 20px;
+    position: relative;
+    background-color: white;
+    overflow-y: scroll;
+    gap: 20px;
+}
+#lista li{
+    width: 200px;
+    height: 300px;
+    position: relative;
+   
+} 
+#lista img{
+    width: 100%;
+    height: 200px;
+
+} 
+
+#lista li h2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 4px;
+}
+#lista li h4{
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    color: rgb(252, 0, 0);
+}
+#lista li p{
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    color: gray;
+}
+#lista li strong{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+#lista li button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+}
+
+footer{
+    width: 340px;
+    background-color: white;
+    height: 122px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 20px;
+    font-family: monospace;
+}
